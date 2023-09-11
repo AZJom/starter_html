@@ -1,0 +1,58 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font color for the body */
+body {
+    background-color: bisque;
+    color: #333; /* Dark gray font color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 16px; /* Base font size */
+    line-height: 1.5; /* Line height for paragraphs */
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the h1 tag */
+h1 {
+    font-size: 36px; /* New font size */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* New font family */
+    text-align: center; /* Center align */
+}
+
+/* Style the h2 and h3 tags */
+h2, h3 {
+    font-size: 24px; /* New font size */
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; /* New font family */
+    color: #007acc; /* Blue font color */
+}
+
+/* Style the paragraph tags */
+p {
+    line-height: 1.6; /* Adjust line height as needed */
+}
+
+/* Style the images */
+ image-container {
+    border: 5px solid #009688; /* 5px solid border with teal color */
+    padding: 10px; /* 10px padding */
+    margin: 20px; /* 20px margin */
+    border-top-right-radius: 30px; /* Border radius */
+}
+
+
+/* Style the list items */
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block; /* Use inline-block display */
+    margin-left: 50px; /* 50px left margin */
+}
