@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 /* Set background color and font color for the body */
 body {
-    background-color: green;
+    background-color: bisque;
     color: #333; /* Dark gray font color */
     font-family: Arial, sans-serif; /* Font family */
     font-size: 16px; /* Base font size */
@@ -39,12 +39,13 @@ p {
 }
 
 /* Style the images */
-.img-container img {
+ image-container {
     border: 5px solid #009688; /* 5px solid border with teal color */
     padding: 10px; /* 10px padding */
     margin: 20px; /* 20px margin */
     border-top-right-radius: 30px; /* Border radius */
 }
+
 
 /* Style the list items */
 ul {
@@ -54,4 +55,17 @@ ul {
 li {
     display: inline-block; /* Use inline-block display */
     margin-left: 50px; /* 50px left margin */
+}
+
+nav a {
+    background-color: burlywood;
+    padding: 5px;
+    margin: 20px;
+}
+
+a {
+    text-align: center;
+}
+#skip {
+    text-transform: uppercase;
 }
