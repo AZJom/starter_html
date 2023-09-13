@@ -3,26 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "css/reset.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Add CSS styles for the image gallery */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .image-container img {
+            width: 30%; /* Adjust the width as needed */
+            margin-bottom: 20px;
+        }
+    </style>
     <title>Pets</title>
 </head>
 <body>
     <header>
         <h1>Welcome to Budgie Paradise</h1>
-        <div class = "image-1">
-        <img src="banana.jpeg" alt="Budgie 1">
+        <div class="image-1">
+            <img src="images/banana.jpg" alt="Budgie 1">
         </div>
     </header>
-    <a href = "#main"> Skip to the main content</a>
-        <nav>
-            <ul>
-                <li><a href = "index.html"></a>Home/Pets</a></li>
-                <li><a href = "recipes.html">Recipes</a></li>
-                <li><a href = "travel.html">Travel</a></li>
-            </ul>
-        </nav>
-    <main id = "main">
+    <a href="#main">Skip to the main content</a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home/Pets</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="travel.html">Travel</a></li>
+        </ul>
+    </nav>
+    <main id="main">
         <section>
             <h2>About Budgies</h2>
             <p>Budgerigars, commonly known as budgies, are small parrots that make wonderful pets. They are known for their vibrant colors, playful personalities, and friendly nature.</p>
@@ -35,9 +48,15 @@
             <h2>Image Gallery</h2>
             <div class="image-container">
                 <img src="images/ana.jpeg" alt="Budgie 2">
+                <h3>Budgie 2</h3>
                 <img src="images/yellow.jpeg" alt="Budgie 3">
-                <img src="images/“fly.jpeg" alt="Budgie 4">
+                <h3>Budgie 3</h3>
+                <img src="images/fly.jpeg" alt="Budgie 4">
+                <h3>Budgie 4</h3>
                 <img src="images/majestic.png" alt="Budgie 5">
+                <h3>Budgie 5</h3>
+                <img src="images/king.jpg" alt="Budgie 5">
+                <h3>Budgie 6</h3>
             </div>
         </section>
         <section>
